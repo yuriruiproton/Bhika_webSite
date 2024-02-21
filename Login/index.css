@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    
+    background: #081b29;;
+   /* background-size: cover;*/
+   /* min-height: 100vh;*/
+    overflow: hidden;
+    
+}
+
+.login-container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 5em;
+    
+}
+
+h1{
+    text-align: center;
+    color:  #f4623a;;
+    margin-bottom: 50px ;
+    font-family: monospace;
+    font-size: 30px;
+}
+.login{
+    width: 380px;
+    height: 400px;
+    position: relative;
+    margin: 6% auto;
+    background-color:black; /* rgba(255, 255, 255, 0.7)*/
+    backdrop-filter: blur(px);
+    border: 1px solid(255,255,255,0.196) ;
+    padding: 20px;
+    border-radius: 2em;
+    overflow: hidden;
+}
+.input-login{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    background: transparent;
+    color: #fff;
+
+}
+
+.forgot-pass{
+    padding-left: 7.5rem ;
+    font-size: 0.7em;
+}
+a{
+    color:  #fff;;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 15px;
+
+}
+span{
+    color: #fff;
+    font-size: 15px;
+    font-family: monospace;
+}
+.btn-login{
+  text-align: center;
+  margin-top: 20px;
+
+}
+button{
+    width: 90%;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f4623a;;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 15px;
+    font-family: monospace;
+
+}
+button:hover{
+    background-color: #0dcaf0;
+}
+a:hover{
+    color: #f4623a;
+}
+.social-icons{
+    color: white;
+    margin-top: 35px;
+}
+.bx{
+    font-size: 20px;
+    padding: 5px;
+    transition: 0.5s;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #f4623a;
+}
+
+@media(max-width:395px){
+   
+    .login{
+        width: 330px;
+        height: 350px;
+        overflow: hidden;
+       
+    }
+    h1{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+  .forgot-pass{
+    padding-left: 5rem;
+  }
+  .social-icons{
+    color: white;
+    margin-top: 20px;
+}
+body{
+    background: black;
+}
+}
